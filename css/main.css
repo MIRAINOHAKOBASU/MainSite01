@@ -37,7 +37,24 @@ h2 img {
 
 #topView {
   position: relative;
-
+  height: 700px;
+}
+#topView img {
+  position: absolute;
+}
+#topView .img01 {
+  width: 300px;
+  left: 20px;
+  top: 20px;
+}
+#topView .img02 {
+  left: 550px;
+  top: 350px;
+}
+#topView .img03 {
+  left: 750px;
+  top: 300px;
+  height: 400px;
 }
 
 #place {
