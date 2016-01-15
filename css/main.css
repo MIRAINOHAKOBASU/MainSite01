@@ -67,6 +67,12 @@ h2 img {
   height: 400px;
 }
 
+#topView .img05{
+  width: 300px;
+  left: 25px;
+  top: 200px;
+}
+
 #place {
   position: relative;
 }
