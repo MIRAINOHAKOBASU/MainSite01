@@ -26,6 +26,10 @@ header {
   top: 30px;
   height: 30px;
 }
+header a {
+  display: block;
+  height: 100%;
+}
 header img {
   height: 100%;
   margin-left: 10px;
