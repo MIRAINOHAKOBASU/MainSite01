@@ -15,7 +15,7 @@ img {
 
 .inner {
   width: 1000px;
-  background-image: url(../img/road_one.png);
+  background-image: url(../img/road_v2.png);
   margin: 0 auto;
   position: relative;
 }
@@ -27,12 +27,12 @@ header {
   height: 30px;
 }
 header a {
-  display: block;
   height: 100%;
 }
 header img {
   height: 100%;
   margin-left: 10px;
+  border-bottom: 2px solid #D21577;
 }
 
 h2 img {
