@@ -56,9 +56,21 @@ h2 img {
   top: 350px;
 }
 #topView .img03 {
-  left: 750px;
+  left: 650px;
   top: 300px;
   height: 400px;
+}
+
+#topView .img04{
+  left: 850px;
+  top: 300px;
+  height: 400px;
+}
+
+#topView .img05{
+  width: 300px;
+  left: 25px;
+  top: 200px;
 }
 
 #place {
