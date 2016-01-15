@@ -84,7 +84,7 @@ h2 img {
 
 #place {
   position: relative;
-  height: 900px;
+  height: 800px;
 }
 
 #place img {
@@ -135,11 +135,90 @@ h2 img {
   top: 340px;
 }
 
-
 #work {
   position: relative;
+  height: 1800px;
+}
+
+#work img {
+  position: absolute;
+}
+
+#work .img01 {
+  top: 25px;
+  left: 550px;
+}
+
+#work .img02 {
+  height: 400px;
+  top: 25px;
+  left: 750px;
+}
+
+#work .img03 {
+  top: 200px;
+  left: 400px;
+}
+
+#work .group01 .group01_img{
+  height: 250px;
+  left: 130px;
+  top: 50px;
 
 }
+
+#work .group02 .group02_img{
+  height: 250px;
+  top: 320px;
+}
+
+#work .group03 .group03_img{
+  height: 250px;
+  left: 550px;
+  top: 410px;
+}
+
+#work .group04 .group04_img{
+  height: 250px;
+  top: 560px;
+  left: 220px;
+}
+
+#work .group05 .group05_img{
+  height: 250px;
+  left: 700px;
+  top: 700px;
+}
+
+#work .group06 .group06_img{
+  height: 250px;
+  top: 780px;
+}
+
+#work .group07 .group07_img{
+  height: 250px;
+  top: 900px;
+  left: 350px;
+}
+
+#work .group08 .group08_img{ 
+  height: 250px;
+  top: 1010px;
+  left: 750px;
+}
+
+#work .group09 .group09_img{
+  height: 250px;
+  top: 1110px;
+  left: 50px;
+}
+
+#work .group10 .group10_img{
+  height: 250px;
+  top: 1210px;
+  left: 420px;
+}
+
 
 #movie {
   position: relative;
