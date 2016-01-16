@@ -9,7 +9,7 @@ $(function(){
 
 	$(window).scroll(function(){
 		var $scvalue = $(this).scrollTop();//スクロールの値を取得
-		if($scvalue >500){
+		if($scvalue >400){
 			hide.fadeIn(200);
 		}
 	});
