@@ -1,5 +1,16 @@
 $(function(){
-	var cont = $('#topView > .img04'); //コンテンツのタグを指定
-	cont.css('display','none'); //変数hideにcssのclass"none"を指定
-	cont.delay(1600).fadeIn(900);
+	var topView = 800;
+	var place = 700;
+	var work = 1800;
+
+	var hide = $('#place .img02');
+
+	hide.css('display','none');
+
+	$(window).scroll(function(){
+		var $scvalue = $(this).scrollTop();//スクロールの値を取得
+		if($scvalue >500){
+			hide.fadeIn(200);
+		}
+	});
 });
