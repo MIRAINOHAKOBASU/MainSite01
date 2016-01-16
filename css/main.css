@@ -249,7 +249,23 @@ h2 img {
 
 
 
-.topButton {
-  display: none
-  /*未デザインのため*/
+.topButton{
+  position: relative;
+  right: 0;
+  margin-left: auto;
+  width: 100px;
+  padding-bottom: 20px;
+}
+
+.topButton a img{
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.topButton :hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
