@@ -62,7 +62,7 @@ h2 img {
 
 #topView {
   position: relative;
-  height: 700px;
+  height: 800px;
 }
 #topView img {
   position: absolute;
@@ -101,7 +101,7 @@ h2 img {
 
 #place {
   position: relative;
-  height: 800px;
+  height: 700px;
 }
 
 #place img {
@@ -109,47 +109,47 @@ h2 img {
 }
 
 #place .img01 {
-  top: 164px;
+  top: 64px;
   left: 465px;
 }
 
 #place .img02 {
-  top: 140px;
+  top: 40px;
   height: 215px;
   left: 150px;
 }
 
 #place .img03 {
-  top: 365px;
+  top: 265px;
   height: 50px;
   left: 150px;
 }
 
 #place .img04 {
   height: 100px;
-  top: 200px;
+  top: 100px;
 }
 
 #place .img05 {
-  height: 250px;
+  height: 150px;
   top: 450px;
 }
 
 #place .img06 {
   height: 70px;
-  top: 710px;
+  top: 610px;
 }
 
 
 #place .img07 {
   height: 300px;
-  top: 450px;
+  top: 350px;
   left: 270px;
 }
 
 #place .img08 {
   left: 600px;
-  top: 340px;
+  top: 240px;
 }
 
 #work {
