@@ -20,6 +20,23 @@ img {
   position: relative;
 }
 
+#loading{
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+.loadingImg{
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -40px;
+}
+
 .hakobus{
   width: 125px;
 }
@@ -36,7 +53,14 @@ header a {
 header img {
   height: 100%;
   margin-left: 10px;
-  border-bottom: 2px solid #D21577;
+  border-bottom: 2px solid #f1b8d6;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header img:hover{
+  border-bottom: 2px solid #d21577;
 }
 
 h2 img {
@@ -45,7 +69,7 @@ h2 img {
 
 #topView {
   position: relative;
-  height: 700px;
+  height: 800px;
 }
 #topView img {
   position: absolute;
@@ -61,13 +85,13 @@ h2 img {
 }
 #topView .img03 {
   left: 750px;
-  top: 300px;
+  top: 250px;
   height: 400px;
 }
 
 #topView .img04{
   left: 950px;
-  top: 300px;
+  top: 250px;
   height: 400px;
 }
 
@@ -84,7 +108,7 @@ h2 img {
 
 #place {
   position: relative;
-  height: 800px;
+  height: 700px;
 }
 
 #place img {
@@ -92,56 +116,134 @@ h2 img {
 }
 
 #place .img01 {
-  top: 164px;
+  top: 64px;
   left: 465px;
 }
 
 #place .img02 {
-  top: 140px;
+  top: 40px;
   height: 215px;
   left: 150px;
 }
 
 #place .img03 {
-  top: 365px;
+  top: 265px;
   height: 50px;
   left: 150px;
 }
 
 #place .img04 {
   height: 100px;
-  top: 200px;
+  top: 100px;
 }
 
 #place .img05 {
-  height: 250px;
+  height: 150px;
   top: 450px;
 }
 
 #place .img06 {
-  height: 70px;
-  top: 710px;
+  height: 45px;
+  top: 610px;
 }
 
+#place .img06-2{
+  height: 22px;
+  top: 660px;
+  border-bottom: 2px solid #f1b8d6;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#place .img06-2:hover{
+  border-bottom: 2px solid #d21577;
+}
 
 #place .img07 {
   height: 300px;
-  top: 450px;
+  top: 350px;
   left: 270px;
 }
 
 #place .img08 {
   left: 600px;
-  top: 340px;
+  top: 240px;
 }
 
 #work {
   position: relative;
-  height: 1800px;
+  height: 1500px;
 }
 
 #work img {
   position: absolute;
+}
+
+#work .group{
+  position: absolute;
+  height: 250px;
+  width: 250px;
+}
+
+#work .group :hover{
+  opacity: 1 ;
+}
+
+#work .group .mouseover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin:auto;
+  width: 250px;
+  height: 250px;
+
+  opacity: 0;
+  z-index: 2;
+
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#work .group .mouseover:hover{
+  opacity: 1;
+}
+
+#work .group .mouseover p{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin:auto;
+  width: 150px;
+  height: 50px;
+}
+
+#work .modal-contents{
+  position: fixed;
+  margin: 0;
+  z-index: 2;
+  display: none;
+
+  width: 400px;
+  height: 700px;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
+.modal-overlay{
+  z-index: 1;
+  display: none; /*最初は表示しない*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  background-color: rgba(0,0,0,0.75);
 }
 
 #work .img01 {
@@ -160,79 +262,124 @@ h2 img {
   left: 400px;
 }
 
-#work .group01 .group01_img{
-  height: 250px;
+#work .group01{
   left: 130px;
   top: 50px;
-
 }
 
-#work .group02 .group02_img{
-  height: 250px;
+#work .group02{
   top: 320px;
 }
 
-#work .group03 .group03_img{
-  height: 250px;
+#work .group03{
   left: 550px;
   top: 410px;
 }
 
-#work .group04 .group04_img{
-  height: 250px;
+#work .group04{
   top: 560px;
   left: 220px;
 }
 
-#work .group05 .group05_img{
-  height: 250px;
+#work .group05{
   left: 700px;
   top: 700px;
 }
 
-#work .group06 .group06_img{
-  height: 250px;
+#work .group06{
   top: 780px;
 }
 
-#work .group07 .group07_img{
-  height: 250px;
+#work .group07{
   top: 900px;
   left: 350px;
 }
 
-#work .group08 .group08_img{ 
-  height: 250px;
+#work .group08{ 
   top: 1010px;
   left: 750px;
 }
 
-#work .group09 .group09_img{
-  height: 250px;
+#work .group09{
   top: 1110px;
   left: 50px;
 }
 
-#work .group10 .group10_img{
-  height: 250px;
+#work .group10{
   top: 1210px;
   left: 420px;
 }
 
-
 #movie {
   position: relative;
+  height: 600px;
 }
 
+#movie img{
+  position: absolute;
+}
 
+#movie .img01{
+  top :0;
+  left: 530px;
+}
+
+#movie .img02{
+  top : 80px;
+  left: 680px;
+}
+
+#movie .movie_contents{
+  position: absolute;
+  top: 100px;
+  width: 400px;
+  height: 250px;
+  background-color: #FFF;
+}
+
+#movie .movie_contents p{
+  margin: 100px 100px;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+}
 
 #end {
   position: relative;
+  height: 300px;
 }
 
+#end img{
+  position: absolute;
+}
 
+#end .img01{
+  top: 100px;
+  left: 450px;
+}
 
-.topButton {
-  display: none
-  /*未デザインのため*/
+#end .img02{
+  top: 230px;
+  left: 300px;
+}
+
+.topButton{
+  position: relative;
+  right: 0;
+  margin-left: auto;
+  width: 100px;
+  padding-bottom: 20px;
+}
+
+.topButton a img{
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.topButton:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
