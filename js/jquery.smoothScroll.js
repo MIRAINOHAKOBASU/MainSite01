@@ -90,7 +90,7 @@ jQuery( function( $ ) {
 	$( window ).on( 'load', function() {
 		$( 'a[href^="#"]' ).SmoothScroll( {
 			duration : 1000,
-			easing : 'easeOutQuint'
+			easing : 'easeInOutQuad'
 		} );
 	} );
 
