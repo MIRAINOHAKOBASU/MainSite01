@@ -53,7 +53,14 @@ header a {
 header img {
   height: 100%;
   margin-left: 10px;
-  border-bottom: 2px solid #D21577;
+  border-bottom: 2px solid #f1b8d6;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header img:hover{
+  border-bottom: 2px solid #d21577;
 }
 
 h2 img {
@@ -136,10 +143,22 @@ h2 img {
 }
 
 #place .img06 {
-  height: 70px;
+  height: 45px;
   top: 610px;
 }
 
+#place .img06-2{
+  height: 22px;
+  top: 660px;
+  border-bottom: 2px solid #f1b8d6;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#place .img06-2:hover{
+  border-bottom: 2px solid #d21577;
+}
 
 #place .img07 {
   height: 300px;
@@ -263,7 +282,7 @@ h2 img {
   transition: 0.5s;
 }
 
-.topButton :hover{
+.topButton:hover{
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
