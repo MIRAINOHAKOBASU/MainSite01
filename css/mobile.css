@@ -1,16 +1,25 @@
 @charset "UTF-8";
 
 @media screen and ( max-width:680px ){
-	body{
-		width: 100%;
-		min-width: 0;
-	}
+body{
+  background-image: url(../img/snow_v2.jpg);
+  background-repeat: repeat-y;
+  min-width: 0;
+}
 
-	.inner{
-		width: 100%;
-		margin: 0 3%;
-	}
-	img{
-		max-width: 95%;
-	}
+.inner{
+  width: 100%;
+  margin: 0 3%;
+}
+img{
+  max-width: 95%;
+}
+
+.pc_only{
+	display: none;
+}
+
+.mobile_busStop{
+	height: 50px;
+}
 }
