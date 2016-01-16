@@ -226,17 +226,57 @@ h2 img {
 #work .modal-contents{
   position: fixed;
   margin: 0;
-  z-index: 2;
+  z-index: 3;
   display: none;
 
-  width: 400px;
-  height: 700px;
-  border: 1px solid #000;
+  width: 750px;
+  height: 550px;
   background-color: #fff;
 }
 
+#work .modal-contents img{
+  position: relative;
+  margin: 30px 25px;
+  width: 250px;
+  height: 250px;
+  float: left;
+
+  background-color: #ddd;
+}
+
+#work .modal-contents h3{
+  position: relative;
+  margin: 30px 25px 20px 15px;
+  width: 410px;
+  height: 50px;
+  float: left;
+
+  background-color: #ddd;
+}
+
+#work .modal-contents p{
+  position: relative;
+  margin: 10px 25px 10px 15px;
+  width: 410px;
+  height: 170px;
+  float: left;
+
+  background-color: #ddd;
+}
+
+#work .modal-contents ul{
+  position: relative;
+  margin: 10px 25px 30px 25px;
+  width: 700px;
+  height: 200px;
+  float: left;
+
+  background-color: #ddd;
+  list-style: none;
+}
+
 .modal-overlay{
-  z-index: 1;
+  z-index: 2;
   display: none; /*最初は表示しない*/
   position: fixed;
   top: 0;
