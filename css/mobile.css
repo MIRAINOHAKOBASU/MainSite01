@@ -5,6 +5,7 @@ body{
   background-image: url(../img/snow_v2.jpg);
   background-repeat: repeat-y;
   min-width: 0;
+  height: auto !important;
 }
 
 .inner{
@@ -38,6 +39,13 @@ h2{
 
 .mobile_busStop{
   height: 50px;
+}
+
+#work:after{
+	/*micro clearfix*/
+	display: table;
+	content: "";
+	clear: both;
 }
 
 .group{
