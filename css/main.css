@@ -186,9 +186,6 @@ h2 img {
   width: 250px;
 }
 
-#work .group :hover{
-  opacity: 1 ;
-}
 
 #work .group .mouseover{
   position: absolute;
@@ -208,10 +205,6 @@ h2 img {
   transition: 0.5s;
 }
 
-#work .group .mouseover:hover{
-  opacity: 1;
-}
-
 #work .group .mouseover p{
   position: absolute;
   top: 0;
@@ -219,14 +212,28 @@ h2 img {
   right: 0;
   bottom: 0;
   margin:auto;
-  width: 150px;
-  height: 50px;
+  width: 180px;
+  height: 30px;
+  text-align: center;
+
+  color: #fff;
+
+  opacity: 1;
+  z-index: 3;
+
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#work .group .mouseover:hover{
+  opacity: 1;
 }
 
 #work .modal-contents{
   position: fixed;
   margin: 0;
-  z-index: 3;
+  z-index: 4;
   display: none;
 
   width: 750px;
@@ -240,8 +247,6 @@ h2 img {
   width: 250px;
   height: 250px;
   float: left;
-
-  background-color: #ddd;
 }
 
 #work .modal-contents h3{
@@ -276,7 +281,7 @@ h2 img {
 }
 
 .modal-overlay{
-  z-index: 2;
+  z-index: 3;
   display: none; /*最初は表示しない*/
   position: fixed;
   top: 0;
