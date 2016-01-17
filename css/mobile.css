@@ -11,6 +11,7 @@ body{
   width: 100%;
   margin: 0 3%;
 }
+
 img{
   max-width: 95%;
 }
@@ -31,8 +32,26 @@ h2{
   display: none !important;
 }
 
+.modal-contents{
+	display: none !important;
+}
+
 .mobile_busStop{
   height: 50px;
+}
+
+.group{
+	clear: both;
+}
+.group:before{
+	content: url(../img/work_icon.png);
+	float: left;
+}
+.group > img{
+	display: none;
+}
+.group >div{
+	float: left;
 }
 }
 
