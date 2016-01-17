@@ -9,6 +9,14 @@ $(window).load(function () { //全ての読み込みが完了したら実行
   stopload();
 });
 
+$(window).resize(function(){//画面サイズが変更されたら実行
+  if($(window).width() > 680){
+    $('#topView>.img04, #topView>.img03').css('display','block');
+  }else{
+    $('#topView>.img04, #topView>.img03').css('display','none');
+  }
+});
+
 //10秒たったら強制的にロード画面を非表示
 $(function(){
   setTimeout('stopload()',10000);

@@ -391,6 +391,10 @@ h2 img {
 }
 
 .mobile_only{
-  display: none;
+  display: none !important;
+}
+
+h3{
+  display: none !important;
 }
 }

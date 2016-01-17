@@ -16,22 +16,23 @@ img{
 }
 
 .pc_only{
-  display: none;
+  display: none !important;
 }
 
 .hakobus{
-  display: none;
+  display: none !important;
 }
 
 header{
-  display: none;
+  display: none !important;
 }
 
 h2{
-  display: none;
+  display: none !important;
 }
 
 .mobile_busStop{
   height: 50px;
 }
 }
+
