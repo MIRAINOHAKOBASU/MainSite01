@@ -1,10 +1,14 @@
 $(function(){
     // 「.modal-open」をクリック
     $('.group').click(function(){
+
         // オーバーレイ用の要素を追加
         $('body').append('<div class="modal-overlay"></div>');
+
         // オーバーレイをフェードイン
         $('.modal-overlay').fadeIn('slow');
+
+        if( $( '.modal-overlay' )[1] ) return false ;
  
         // モーダルコンテンツのIDを取得
         var modal = '#' + $(this).attr('data-target');
