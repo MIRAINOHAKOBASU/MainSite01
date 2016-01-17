@@ -191,9 +191,6 @@ h2 img {
   width: 250px;
 }
 
-#work .group :hover{
-  opacity: 1 ;
-}
 
 #work .group .mouseover{
   position: absolute;
@@ -213,10 +210,6 @@ h2 img {
   transition: 0.5s;
 }
 
-#work .group .mouseover:hover{
-  opacity: 1;
-}
-
 #work .group .mouseover p{
   position: absolute;
   top: 0;
@@ -224,24 +217,131 @@ h2 img {
   right: 0;
   bottom: 0;
   margin:auto;
-  width: 150px;
-  height: 50px;
+  width: 180px;
+  height: 30px;
+  text-align: center;
+
+  color: #fff;
+
+  opacity: 1;
+  z-index: 3;
+
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#work .group .mouseover:hover{
+  opacity: 1;
 }
 
 #work .modal-contents{
   position: fixed;
   margin: 0;
-  z-index: 2;
+  z-index: 4;
   display: none;
 
-  width: 400px;
-  height: 700px;
-  border: 1px solid #000;
+  width: 750px;
+  height: 550px;
   background-color: #fff;
 }
 
+#work .modal-contents img{
+  position: relative;
+  margin: 30px 25px 10px 25px;
+  width: 250px;
+  height: 250px;
+  float: left;
+}
+
+#work .modal-contents h3{
+  position: relative;
+  margin: 40px 25px 10px 15px;
+  padding-left: 10px;
+  width: 410px;
+  height: 50px;
+  float: left;
+
+  border-left: solid 10px #d21577;
+  border-bottom: solid 1px #d21577;
+  font-size: 23px;
+  line-height: 50px;
+}
+
+#work .modal-contents p{
+  position: relative;
+  margin: 10px 25px 10px 15px;
+  width: 410px;
+  height: 170px;
+  float: left;
+}
+
+#work .modal-contents ul{
+  position: relative;
+  margin: 10px 25px 30px 25px;
+  width: 700px;
+  height: 220px;
+  float: left;
+
+  list-style: none;
+}
+
+#work .modal-contents .member{
+  position: relative;
+  margin: 15px 10px;
+  width: 210px;
+  height: 80px;
+  border-left: solid 5px #d21577;
+
+  float: left;
+}
+
+#work .modal-contents .member li{
+  margin: 5px 10px;
+  width: 200px;
+  height: 30px;
+  float: left;
+
+  list-style-type: none;
+}
+
+#work .modal-contents .member p{
+  margin: 5px 10px;
+  width: 200px;
+  height: 30px;
+
+  line-height: 30px;
+}
+
+#work .modal-contents .member_2{
+  position: relative;
+  margin: 15px 10px;
+  width: 330px;
+  height: 80px;
+  border-left: solid 5px #d21577;
+
+  float: left;
+}
+
+#work .modal-contents .member_2 li{
+  margin: 5px 10px;
+  width: 200px;
+  height: 30px;
+  float: left;
+
+  list-style-type: none;
+}
+
+#work .modal-contents .member_2 p{
+  margin: 5px 10px;
+  width: 330px;
+  height: 30px;
+
+  line-height: 30px;
+}
+
 .modal-overlay{
-  z-index: 1;
+  z-index: 3;
   display: none; /*最初は表示しない*/
   position: fixed;
   top: 0;
