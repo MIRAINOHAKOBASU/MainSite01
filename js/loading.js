@@ -26,7 +26,6 @@ function stopload(){
   $('.loadingImg').delay(900).fadeOut(800);
   $('#loading').delay(600).fadeOut(300);
   delayFadeIn('.inner',1000,600);
-  delayFadeIn('.topButton',1000,600);
   if($(window).width() > 680){
     delayFadeIn('#topView>.img04',1700,600);
     delayFadeIn('#topView>.img03',2000,600);
