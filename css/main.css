@@ -498,4 +498,8 @@ h2 img {
 h3{
   display: none !important;
 }
+
+.modal-contents > h3{
+  display: block !important;
+}
 }
