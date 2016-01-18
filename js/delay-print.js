@@ -8,14 +8,6 @@ $(function(){
 	hide.css('display','none');
 
 	$(window).scroll(function(){
-<<<<<<< HEAD
-		var $scvalue = $(this).scrollTop();//スクロールの値を取得
-		if($scvalue >400){
-			hide.fadeIn(200);
-		}
-	});
-});
-=======
 		$scvalue = $(this).scrollTop();//スクロールの値を取得
 		sFI('#place .img01',300);
 		sFI('#place .img02',400);
@@ -45,4 +37,3 @@ function sFO(element,value){//scrollFadeOut
 		$(element).fadeOut(500);
 	}
 }
->>>>>>> master
