@@ -27,11 +27,18 @@ $(function(){
 		sFI('#end .hakobus',  topView + place + work - 500);
 
 		sFI('.topButton',topView - 100);
+		sFIo('.topButton',topView - 300);
 	});
 });
 
 function sFI(element,value){//scrollFadeIn
 	if($scvalue > value){
 		$(element).fadeIn(500);
+	}
+}
+
+function sFIo(element,value){//scrollFadeIn
+	if($scvalue < value){
+		$(element).fadeOut(500);
 	}
 }
