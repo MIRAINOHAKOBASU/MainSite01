@@ -7,7 +7,7 @@ var groups = ['.group01' , '.group02', '.group03', '.group04', '.group05', '.gro
 
 $(function(){
 
-	var hide = $('#place .img02, #place .img01, #place .hakobus, .group, #work .img01, #work .hakobus, #movie .img01, #movie .hakobus, #end .hakobus');
+	var hide = $('#place .img02, #place .img01, #place .hakobus, .group, #work .img01, #work .hakobus, #movie .img01, #movie .hakobus, #end .hakobus, .topButton');
 
 
 	hide.css('display','none');
@@ -26,7 +26,7 @@ $(function(){
 		sFI('#movie .hakobus', topView + place + work - 900);
 		sFI('#end .hakobus',  topView + place + work - 500);
 
-		sFI('.topButton',topView);
+		sFI('.topButton',topView - 100);
 	});
 });
 
