@@ -470,8 +470,9 @@ h2 img {
 }
 
 .topButton{
-  position: relative;
-  right: 0;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
   margin-left: auto;
   width: 100px;
   padding-bottom: 20px;

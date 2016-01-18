@@ -58,6 +58,9 @@ h2{
 .group > img{
 	display: none;
 }
+.shadow_img{
+	display: none !important;
+}
 .group >div{
 	float: left;
 }
