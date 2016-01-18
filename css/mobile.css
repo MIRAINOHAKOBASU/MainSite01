@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+@media screen and ( max-width:680px ){
+body{
+  background-image: url(../img/snow_v2.jpg);
+  background-repeat: repeat-y;
+  min-width: 0;
+  height: auto !important;
+}
+
+.inner{
+  width: 94%;
+  margin: 0 3%;
+  background-image: url(../img/road_phone.png);
+}
+
+img{
+  max-width: 95%;
+}
+
+.pc_only{
+  display: none !important;
+}
+
+.hakobus{
+  display: none !important;
+}
+
+header{
+  display: none !important;
+}
+
+h2{
+  display: none !important;
+}
+
+.modal-contents{
+	display: none !important;
+}
+
+.mobile_hakobus{
+  height: 30px;
+  margin-left: -10px;
+}
+
+.mobile_busStop{
+  height: 50px;
+}
+
+.title{
+  height: 30px;
+  margin-left: 5px;
+}
+
+#topView{
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+#topView .img00{
+  width: 80%;
+  margin-top: 20px;
+}
+
+#topView .img01{
+  width: 70%;
+  margin-top: 15px;
+}
+
+#topView .img05{
+  width: 50%;
+  margin-top: 40px;
+}
+
+#mobile_about{
+  margin-bottom: 50px;
+}
+
+#mobile_about .img01{
+  margin-left: 17%;
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#mobile_about .img02{
+  margin-left: 17%;
+  width: 50%;
+}
+
+#place{
+  margin-bottom: 50px;
+}
+
+#place .img03{
+  margin-left: 17%;
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+#place .img02{
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+#place .img05{
+  margin-left: 17%;
+  width: 35%;
+}
+
+#place .img07{
+  margin-left: 2%;
+  width: 43%;
+}
+
+#place .img06{
+  margin-left: 17%;
+  width: 40%;
+}
+
+#place .img06-2{
+  margin-left: 17%;
+  width: 20%;
+}
+
+#work{
+  margin-bottom: 50px;
+}
+
+#work .img02{
+  margin-left: 17%;
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+#work:after{
+	/*micro clearfix*/
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.group{
+	clear: both;
+}
+.group:before{
+	content: url(../img/work_icon_s.png);
+	float: left;
+  margin-left: 17%;
+}
+.group > img{
+	display: none;
+}
+.shadow_img{
+	display: none !important;
+}
+.group >div{
+	float: left;
+  margin-left: 10px;
+}
+
+#movie{
+  margin-bottom: 50px;
+}
+
+#movie .movie_contents{
+  margin-left: 17%;
+}
+
+#end .img02{
+  margin-top: 20px;
+  margin-left: 17%;
+  width: 66%;
+  margin-right: 17%;
+}
+
+.topButton{
+  width: 20%;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+}
+
