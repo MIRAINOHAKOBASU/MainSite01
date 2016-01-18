@@ -1,14 +1,9 @@
-var $scvalue;
-var topView = 800;
-var place = 700;
-var work = 1800;
-
-var groups = ['.group01' , '.group02', '.group03', '.group04', '.group05', '.group06', '.group07', '.group08', '.group09', '.group10']
-
 $(function(){
+	var topView = 800;
+	var place = 700;
+	var work = 1800;
 
-	var hide = $('#place .img02, #place .img01, #place .hakobus, .group, #work .img01, #work .hakobus, #movie .img01, #movie .hakobus, #end .hakobus, .topButton');
-
+	var hide = $('#place .img02');
 
 	hide.css('display','none');
 
