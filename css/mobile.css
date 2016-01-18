@@ -144,7 +144,7 @@ h2{
 	clear: both;
 }
 .group:before{
-	content: url(../img/work_icon.png);
+	content: url(../img/work_icon_s.png);
 	float: left;
   margin-left: 17%;
 }
@@ -156,6 +156,7 @@ h2{
 }
 .group >div{
 	float: left;
+  margin-left: 10px;
 }
 
 #movie{
