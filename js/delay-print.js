@@ -20,7 +20,7 @@ $(function(){
 		sFI('#work .img01', topView);
 		sFI('#work .hakobus', topView);
 		$.each(groups,function(i, element){
-			sFI(element,topView + place - 550 + parseInt($(element).css("top")));
+			sFI(element,topView + place - 600 + parseInt($(element).css("top")));
 		});
 		sFI('#movie .img01', topView + place + work - 900);
 		sFI('#movie .hakobus', topView + place + work - 900);
