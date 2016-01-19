@@ -12,8 +12,18 @@ body {
 }
 
 a{
-  color: #000;
+  color: #600;
+  padding: 0 2px;
+  border-bottom: 2px solid #f1b8d6;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
+
+a:hover{
+  border-bottom: 2px solid #d21577;
+}
+
 
 img {
   max-width: 100%;
@@ -47,24 +57,11 @@ img {
   width: 125px;
 }
 
-header {
+header{
   position: absolute;
   right: 0;
   top: 30px;
   height: 30px;
-}
-header a {
-  height: 100%;
-  margin-left: 10px;
-  padding: 0 2px;
-  border-bottom: 2px solid #f1b8d6;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-header a:hover{
-  border-bottom: 2px solid #d21577;
 }
 
 h2 img {
@@ -124,6 +121,10 @@ h2 img {
   position: absolute;
 }
 
+#place div{
+  position: absolute;
+}
+
 #place .img01 {
   top: 64px;
   left: 465px;
@@ -135,10 +136,12 @@ h2 img {
   left: 150px;
 }
 
-#place .img03 {
+#place .text01 {
+  color: #d21577;
+  font-size: 0.8em;
   top: 265px;
-  height: 50px;
   left: 150px;
+  width: 313px;
 }
 
 #place .img04 {
@@ -156,17 +159,10 @@ h2 img {
   top: 610px;
 }
 
-#place .img06-2{
-  height: 22px;
-  top: 660px;
-  border-bottom: 2px solid #f1b8d6;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-#place .img06-2:hover{
-  border-bottom: 2px solid #d21577;
+#place .text02{
+  width: 260px;
+  top: 610px;
+  font-size: 0.8em;
 }
 
 #place .img07 {
