@@ -8,6 +8,11 @@ body {
   min-width: 1000px;
   background-image: url(../img/snow_v2.jpg);
   background-repeat: repeat-y;
+  font-size: 24px;
+}
+
+a{
+  color: #000;
 }
 
 img {
@@ -50,17 +55,15 @@ header {
 }
 header a {
   height: 100%;
-}
-header img {
-  height: 100%;
   margin-left: 10px;
+  padding: 0 2px;
   border-bottom: 2px solid #f1b8d6;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
 
-header img:hover{
+header a:hover{
   border-bottom: 2px solid #d21577;
 }
 
