@@ -8,7 +8,6 @@ body {
   min-width: 1000px;
   background-image: url(../img/snow_v2.jpg);
   background-repeat: repeat-y;
-  font-size: 24px;
 }
 
 a{
@@ -62,6 +61,7 @@ header{
   right: 0;
   top: 30px;
   height: 30px;
+  font-size: 1.3em;
 }
 
 h2 img {
@@ -138,7 +138,6 @@ h2 img {
 
 #place .text01 {
   color: #d21577;
-  font-size: 0.8em;
   top: 265px;
   left: 150px;
   width: 313px;
@@ -162,7 +161,6 @@ h2 img {
 #place .text02{
   width: 260px;
   top: 610px;
-  font-size: 0.8em;
 }
 
 #place .img07 {
@@ -356,10 +354,11 @@ h2 img {
   left: 550px;
 }
 
-#work .img02 {
-  height: 400px;
+#work .text01{
+  position: absolute;
   top: 25px;
   left: 750px;
+  width: 250px;
 }
 
 #work .img03 {
@@ -468,13 +467,23 @@ h2 img {
   left: 300px;
 }
 
+#end .text01{
+  top: 230px;
+  font-size: 2em;
+  text-align: center;
+}
+
 .topButton{
   position: fixed;
   right: 50px;
-  bottom: 50px;
+  bottom: 20px;
   margin-left: auto;
   width: 100px;
   padding-bottom: 20px;
+}
+
+.topButton a{
+  border-bottom: 0;
 }
 
 .topButton a img{
