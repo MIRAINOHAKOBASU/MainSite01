@@ -97,6 +97,11 @@ h2{
   margin-bottom: 50px;
 }
 
+#place .text01{
+  margin-left: 17%;
+  width: 66%;
+}
+
 #place .img03{
   margin-left: 17%;
   width: 40%;
@@ -113,23 +118,23 @@ h2{
   width: 35%;
 }
 
-#place .img07{
-  margin-left: 2%;
+#place .text03{
+  margin-left: 17%;
   width: 43%;
 }
 
-#place .img06{
+#place .text02{
   margin-left: 17%;
   width: 40%;
 }
 
-#place .img06-2{
-  margin-left: 17%;
-  width: 20%;
-}
-
 #work{
   margin-bottom: 50px;
+}
+
+#work .text01{
+  margin-left: 17%;
+  width: 66%;
 }
 
 #work .img02{
@@ -172,11 +177,15 @@ h2{
   margin-left: 17%;
 }
 
-#end .img02{
-  margin-top: 20px;
-  margin-left: 17%;
+#end{
+  padding-bottom: 50px;
+}
+
+#end .text01{
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-left: 10%;
   width: 66%;
-  margin-right: 17%;
 }
 
 .topButton{
@@ -185,6 +194,10 @@ h2{
   position: fixed;
   bottom: 20px;
   right: 20px;
+}
+
+.icon{
+  width: 16px;
 }
 
 }
