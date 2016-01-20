@@ -510,4 +510,9 @@ h3{
 .modal-contents > h3{
   display: block !important;
 }
+
+.icon{
+  position: relative !important;
+  width: 16px;
+}
 }
