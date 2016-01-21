@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+@media screen and ( max-width:680px ){
+body{
+  background-image: url(../img/snow_v2.jpg);
+  background-repeat: repeat-y;
+  min-width: 0;
+  height: auto !important;
+}
+
+.inner{
+  width: 94%;
+  margin: 0 3%;
+  background-image: url(../img/road_phone.png);
+}
+
+img{
+  max-width: 95%;
+}
+
+.pc_only{
+  display: none !important;
+}
+
+.hakobus{
+  display: none !important;
+}
+
+header{
+  display: none !important;
+}
+
+h2{
+  display: none !important;
+}
+
+.modal-contents{
+	display: none !important;
+}
+
+.mobile_hakobus{
+  height: 30px;
+  margin-left: -10px;
+}
+
+.mobile_busStop{
+  height: 50px;
+}
+
+.title{
+  height: 30px;
+  margin-left: 5px;
+}
+
+#topView{
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+#topView .img00{
+  width: 80%;
+  margin-top: 20px;
+}
+
+#topView .img01{
+  width: 70%;
+  margin-top: 15px;
+}
+
+#topView .img05{
+  width: 50%;
+  margin-top: 40px;
+}
+
+#mobile_about{
+  margin-bottom: 50px;
+}
+
+#mobile_about .img01{
+  margin-left: 17%;
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#mobile_about .img02{
+  margin-left: 17%;
+  width: 50%;
+}
+
+#mobile_about .text01{
+  margin-left: 17%;
+  width: 50%;
+}
+
+#place{
+  margin-bottom: 50px;
+}
+
+#place .text01{
+  margin-left: 17%;
+  width: 66%;
+}
+
+#place .img03{
+  margin-left: 17%;
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+#place .img02{
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+#place .img05{
+  margin-left: 17%;
+  width: 35%;
+}
+
+#place .text03{
+  margin-left: 17%;
+  width: 43%;
+}
+
+#place .text02{
+  margin-left: 17%;
+  width: 40%;
+}
+
+#work{
+  margin-bottom: 50px;
+}
+
+#work .text01{
+  margin-left: 17%;
+  width: 66%;
+}
+
+#work .img02{
+  margin-left: 17%;
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+#work:after{
+	/*micro clearfix*/
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.group{
+	clear: both;
+}
+.group:before{
+	content: url(../img/work_icon_s.png);
+	float: left;
+  margin-left: 17%;
+}
+.group > img{
+	display: none;
+}
+.shadow_img{
+	display: none !important;
+}
+.group >div{
+	float: left;
+  margin-left: 10px;
+}
+
+#movie{
+  margin-bottom: 50px;
+}
+
+#movie .movie_contents{
+  margin-left: 17%;
+}
+
+#end{
+  padding-bottom: 50px;
+}
+
+#end .text01{
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-left: 10%;
+  width: 66%;
+}
+
+.topButton{
+  width: 20%;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.icon{
+  width: 16px;
+}
+
+}
+

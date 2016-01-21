@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@media screen and ( min-width:681px ){
 * {
   font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
 }
@@ -8,6 +9,20 @@ body {
   background-image: url(../img/snow_v2.jpg);
   background-repeat: repeat-y;
 }
+
+a{
+  color: #600;
+  padding: 0 2px;
+  border-bottom: 2px solid #f1b8d6;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a:hover{
+  border-bottom: 2px solid #d21577;
+}
+
 
 img {
   max-width: 100%;
@@ -41,26 +56,12 @@ img {
   width: 125px;
 }
 
-header {
+header{
   position: absolute;
   right: 0;
   top: 30px;
   height: 30px;
-}
-header a {
-  height: 100%;
-}
-header img {
-  height: 100%;
-  margin-left: 10px;
-  border-bottom: 2px solid #f1b8d6;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-header img:hover{
-  border-bottom: 2px solid #d21577;
+  font-size: 1.3em;
 }
 
 h2 img {
@@ -73,6 +74,11 @@ h2 img {
 }
 #topView img {
   position: absolute;
+}
+#topView .img00{
+  width: 280px;
+  left: 20px;
+  top: 180px;
 }
 #topView .img01 {
   width: 280px;
@@ -98,7 +104,7 @@ h2 img {
 #topView .img05{
   width: 280px;
   left: 25px;
-  top: 200px;
+  top: 220px;
 }
 
 #topView .img06{
@@ -115,6 +121,10 @@ h2 img {
   position: absolute;
 }
 
+#place div{
+  position: absolute;
+}
+
 #place .img01 {
   top: 64px;
   left: 465px;
@@ -126,10 +136,11 @@ h2 img {
   left: 150px;
 }
 
-#place .img03 {
+#place .text01 {
+  color: #d21577;
   top: 265px;
-  height: 50px;
   left: 150px;
+  width: 313px;
 }
 
 #place .img04 {
@@ -147,17 +158,9 @@ h2 img {
   top: 610px;
 }
 
-#place .img06-2{
-  height: 22px;
-  top: 660px;
-  border-bottom: 2px solid #f1b8d6;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-#place .img06-2:hover{
-  border-bottom: 2px solid #d21577;
+#place .text03{
+  width: 260px;
+  top: 610px;
 }
 
 #place .img07 {
@@ -385,10 +388,11 @@ h2 img {
   left: 550px;
 }
 
-#work .img02 {
-  height: 400px;
+#work .text01{
+  position: absolute;
   top: 25px;
   left: 750px;
+  width: 250px;
 }
 
 #work .img03 {
@@ -497,12 +501,23 @@ h2 img {
   left: 300px;
 }
 
+#end .text01{
+  top: 230px;
+  font-size: 2em;
+  text-align: center;
+}
+
 .topButton{
-  position: relative;
-  right: 0;
+  position: fixed;
+  right: 50px;
+  bottom: 20px;
   margin-left: auto;
   width: 100px;
   padding-bottom: 20px;
+}
+
+.topButton a{
+  border-bottom: 0;
 }
 
 .topButton a img{
@@ -516,4 +531,22 @@ h2 img {
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+.mobile_only{
+  display: none !important;
+}
+
+h3{
+  display: none !important;
+}
+
+.modal-contents > h3{
+  display: block !important;
+}
+
+.icon{
+  position: relative !important;
+  width: 16px;
+}
 }

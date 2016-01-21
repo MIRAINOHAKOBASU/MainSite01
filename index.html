@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>ミライノハコバス</title>
 	<link rel="stylesheet" href="css/sanitize.css" mehia="all">
-	<link rel="stylesheet" href="css/main.css" media="all" />
+	<link rel="stylesheet" href="css/main.css" media="all">
+	<link rel="stylesheet" href="css/mobile.css" media="all">
 	<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
 	<script type="text/javascript" src="js/jquery.smoothScroll.js"></script>
 	<script src="js/modal.js"></script>
@@ -15,34 +17,65 @@
 	<div class="inner">
 		<div id="topView">
 			<h1>
+				<img src="img/subtitle.png" alt="公立はこだて未来大学 情報デザインコース + 高度ICTコース 3年次 講義「ユーザー・センタード・デザイン」課題作品発表会" class="img00">
 				<img src="img/title.png" alt="ミライノハコバス" class="img01">
 			</h1>
 			<h2>
 				<img src="img/busStop_v2_01.png" alt="展示会について" class="img02">
 			</h2>
-			<img src="img/bunsyou01.png" alt="函館市西部地区を巡るバス「元町・ベイエリア周遊号」を題材に、新しいバスの体験をデザインしました。利用客と周遊号の関わりを調査し、バスを使った新しい観光 または、住民目線のバスの活用方法を提案しました。" class="img03">
-			<img src="img/midashi_v2.png" alt="バスって単なる移動手段じゃないよね？" class="img04">
+			<img src="img/bunsyou01.png" alt="函館市西部地区を巡るバス「元町・ベイエリア周遊号」を題材に、新しいバスの体験をデザインしました。利用客と周遊号の関わりを調査し、バスを使った新しい観光、または住民目線のバスの活用方法を提案しました。" class="img03 pc_only">
+			<img src="img/midashi_v2.png" alt="バスって単なる移動手段じゃないよね？" class="img04 pc_only">
 			<img src="img/date.png" alt="1/25 - 27" class="img05">
 			<img src="img/hakobus_v2_right.png" alt="バス" class="img06 hakobus">
 		</div>
 		<header>
-			<a href="#topView"><img src="img/menu_v2_01.png" alt="展示会について"></a>
-			<a href="#place"><img src="img/menu_v2_02.png" alt="会場"></a>
-			<a href="#work"><img src="img/menu_v2_03.png" alt="作品"></a>
-			<a href="#movie"><img src="img/menu_v2_04.png" alt="動画"></a>
+			<a href="#place">会場</a>
+			<a href="#work">作品</a>
+			<a href="#movie">動画</a>
 		</header>
+
+		<div id="mobile_about" class="mobile_only">
+			<h3>
+				<img src="img/hakobus_v2_right.png" class="mobile_hakobus">
+				<img src="img/busStop_phone.png" class="mobile_busStop">
+				<img src="img/menu_v2_01.png" alt="展示会について" class="title">
+			</h3>
+			<img src="img/midashi_phone.png" alt="バスって単なる移動手段じゃないよね？" class="img01">
+			<div class="text01">
+				<p>函館市西部地区を巡るバス「元町・ベイエリア周遊号」を題材に、新しいバスの体験をデザインしました。利用客と周遊号の関わりを調査し、バスを使った新しい観光、または住民目線のバスの活用方法を提案しました。</p>
+			</div>
+		</div>
 
 		<div id="place" data-0="opacity: 0;" data-150="opacity: 1;">
 			<h2>
 				<img src="img/busStop_v2_02.png" alt="会場" class="img01">
 			</h2>
+			<h3>
+				<img src="img/hakobus_v2_right.png" class="mobile_hakobus">
+				<img src="img/busStop_phone.png" class="mobile_busStop">
+				<img src="img/menu_v2_02.png" alt="会場" class="title">
+			</h3>
+
+			<div class="text01">
+				<p>函館市地域交流まちづくりセンター<br>二階フリースペース(駐車場有)</p>
+			</div>
+
 			<img src="img/machicen.png" alt="函館市地域交流まちづくりセンター" class="img02">
-			<img src="img/machicen_title.png" alt="函館市地域交流まちづくりセンター二階フリースペース（駐車場有）" class="img03">
-			<img src="img/bunsyou02.png" alt="美味しい飲み物もあるよ" class="img04">
+
+			<img src="img/bunsyou02.png" alt="美味しい飲み物もあるよ" class="img04 pc_only">
 			<img src="img/map02.png" alt="地図" class="img05">
-			<img src="img/address_v2_01.png" class="img06" alt="北海道函館市末広町4番19号">
-			<a href="https://goo.gl/maps/23DoN5shyqE2" target="_blank"><img src="img/address_v2_02.png" class="img06-2"alt="Google mapはこちら"></a>
-			<img src="img/access.png" alt="アクセス" class="img07">
+			<div class="text03">
+				<p><img src="img/bus_icon.png" alt="" class="icon">バスでお越しの方</p>
+				<p>「元町・ベイエリア周遊号」または「函館バス1系統」乗車</p>
+				<p>「十字街」バス停下車 徒歩1分</p>
+				<p><img src="img/shiden_icon.png" alt="" class="icon">市電でお越しの方</p>
+				<p>「十字街」電停下車 徒歩1分</p>
+			</div>
+			<div class="text02">
+				<p>〒040-0053</p>
+				<p>北海道函館市末広町4番19号</p>
+				<p><a href="https://goo.gl/maps/23DoN5shyqE2" target="_blank">>>Google Mapはこちら</a></p>
+			</div>
 			<img src="img/hakobus_v2_left.png" alt="バス" class="img08 hakobus">
 		</div>
 
@@ -50,8 +83,16 @@
 			<h2>
 				<img src="img/busStop_v2_03.png" alt="作品" class="img01">
 			</h2>
+			<h3>
+				<img src="img/hakobus_v2_right.png" class="mobile_hakobus">
+				<img src="img/busStop_phone.png" class="mobile_busStop">
+				<img src="img/menu_v2_03.png" alt="作品" class="title">
+			</h3>
 
-			<img src="img/bunsyou05.png" alt="公立はこだて未来大学の2コースの学生が、十チームに分かれ、それぞれのテーマを決め、活動しました。ここでは、テーマ別で作品を紹介します。" class="img02">
+			<div class="text01">
+				<p>公立はこだて未来大学の2コースの学生が、十チームに分かれ、それぞれのテーマを決め、活動しました。ここでは、テーマ別で作品を紹介します。</p>
+			</div>
+
 			<img src="img/hakobus_v2_right.png" alt="バス" class="img03 hakobus">
 
 			<div data-target="modal-1" class="group01 group">
@@ -266,6 +307,11 @@
 			<h2>
 				<img src="img/busStop_v2_04.png" alt="動画" class="img01">
 			</h2>
+			<h3>
+				<img src="img/hakobus_v2_right.png" class="mobile_hakobus">
+				<img src="img/busStop_phone.png" class="mobile_busStop">
+				<img src="img/menu_v2_04.png" alt="動画" class="title">
+			</h3>
 
 			<img src="img/hakobus_v2_left.png" alt="バス" class="img02 hakobus">
 
@@ -276,19 +322,23 @@
 		</div>
 
 		<div id="end">
-		<img src="img/hakobus_v2_right.png" alt="バス" class="img01 hakobus">
-			<img src="img/bunsyou04.png" alt="ご来場お待ちしております" class="img02">
+			<img src="img/hakobus_v2_right.png" class="mobile_hakobus mobile_only">
+			<img src="img/hakobus_v2_right.png" alt="バス" class="img01 hakobus">
+			<div class="text01">
+				<p>ご来場お待ちしております</p>
+			</div>
 		</div>
 
 		<div class="topButton">
 			<a href="#topView">
-				<img src="img/go_top.png" alt="トップへ戻る">
+				<img src="img/go_top.png" alt="トップへ戻る" class="pc_only">
+				<img src="img/go_top_phone.png" alt="トップへ戻る" class="mobile_only">
 			</a>
 		</div>
 	</div>
-	<script src="js/loading.js"></script>
 	<script src="js/delay-print.js"></script>
 	<script src="js/skrollr.js"></script>
+	<script src="js/loading.js"></script>
 	<script>
 		var s = skrollr.init();
 	</script>
