@@ -244,9 +244,43 @@ h2 img {
   background-color: #fff;
 }
 
+#work .modal-close{
+  position: relative;
+  margin: 15px 30px 0px auto; 
+  width: 5px;
+  height: 5px;
+}
+
+#work .modal-close :hover{
+  cursor:pointer;
+}
+
+#work .modal-icon {
+  display: inline-block;
+  position: relative;
+  margin: 0 20px 0 7px;
+  padding: 0;
+  width: 4px;
+  height: 20px;
+  background: #000;
+  transform: rotate(45deg);
+}
+
+#work .modal-icon:before{
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -8px;
+  width: 20px;
+  height: 4px;
+  margin-top: -2px;
+  background: #000;
+}
+
 #work .modal-contents img{
   position: relative;
-  margin: 30px 25px 10px 25px;
+  margin: 20px 25px 10px 25px;
   width: 250px;
   height: 250px;
   float: left;
@@ -254,7 +288,7 @@ h2 img {
 
 #work .modal-contents h3{
   position: relative;
-  margin: 40px 25px 10px 15px;
+  margin: 30px 25px 10px 15px;
   padding-left: 10px;
   width: 410px;
   height: 50px;
@@ -268,7 +302,7 @@ h2 img {
 
 #work .modal-contents p{
   position: relative;
-  margin: 10px 25px 10px 15px;
+  margin: 0px 25px 10px 15px;
   width: 410px;
   height: 170px;
   float: left;
@@ -276,7 +310,7 @@ h2 img {
 
 #work .modal-contents ul{
   position: relative;
-  margin: 10px 25px 30px 25px;
+  margin: 0px 25px 30px 25px;
   width: 700px;
   height: 220px;
   float: left;
