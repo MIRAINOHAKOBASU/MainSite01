@@ -56,9 +56,11 @@ img {
 
 .inner {
   width: 1000px;
-  background-image: url(../img/road_v2.png);
+  background-image: url(../img/road_v3.png);
+  background-position: center center; 
   margin: 0 auto;
   position: relative;
+
 }
 
 #loading{
@@ -112,22 +114,23 @@ left: 800px;
 }
 
 #topView .img04{
-  left: 510px;
-  top: 250px;
+  width:450px;
+  left: 560px;
+  top: 220px;
 }
 
 
 #topView .text01{
   position: absolute;
   font-size: 13px;
-  width: 500px;
-  left: 510px;
-  top: 300px;
+  width: 450px;
+  left: 560px;
+  top: 270px;
 }
 
 #topView .img05{
-  width: 500px;
-  left: 510px;
+  width: 480px;
+  left: 560px;
   top: 450px;
 }
 
