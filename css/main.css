@@ -12,29 +12,34 @@ body {
   background-repeat: repeat-y;
 }
 
-a{
-  padding-left: 27px;
+header{
+  position: absolute;
+  right: 0;
+  top: 75px;
+  border-right: 1px solid #888889;/*一部のブラウザで0.5では表示されないため1に変更*/
+}
+
+header:after{/*floatを使うため、clearfixを追記（micro clearfixを採用）*/
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+header a{/*他のaタグに鑑賞する恐れがあったため、header内aタグに書き換え*/
+  display: block;/*aタグは本来インライン要素であるため、ブロック要素に変更*/
+  float: left;/*ブロック要素を横並びにするためfloatを使用*/
+  padding-left: 25px;/*左だけ長かったので変更、意図が会ったらごめんなさい*/
   padding-right: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-left: 0.5px solid #888889;
- 
+  border-left: 1px solid #888889;/*一部のブラウザで0.5では表示されないため1に変更*/
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
 
-a:hover{
+header a:hover{
   background-color: rgba(174,190,200,0.3);
- 
-}
-
-header{
-  position: absolute;
-  right: 0;
-  top: 75px;
-  height: 37px;
-   border-right: 0.5px solid #888889;
 }
 
 header .img06{
