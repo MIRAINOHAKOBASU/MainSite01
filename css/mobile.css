@@ -14,7 +14,7 @@ a:visited{color:#00008B;}
 .inner{
   width: 94%;
   margin: 0 3%;
-  background-image: url(../img/road_phone.png);
+  /*background-image: url(../img/road_phone.png);*/
 }
 
 img{
@@ -48,10 +48,12 @@ h2{
 
 .mobile_busStop{
   height: 50px;
+  margin-left: 10px;
+  margin-bottom: 20px;
 }
 
 .title{
-  height: 30px;
+  height: 32px;
   margin-left: 5px;
 }
 
@@ -117,7 +119,7 @@ h2{
 
 #place .text01{
   margin-left: 17%;
-  width: 66%;
+  width: 70%;
 }
 
 #place .img03{
@@ -149,6 +151,12 @@ h2{
   margin-top: 10px;
   margin-left: 17%;
   width: 80%;
+}
+
+#place .place_mobile{
+  margin-left: 17%;
+  padding: 20px 0;
+  width: 70%;
 }
 
 #work{
@@ -292,7 +300,7 @@ h2{
 	clear: both;
 }
 .group:before{
-	content: url(../img/work_icon_s.png);
+	content: url(../img/arrow2.png);
 	float: left;
   margin-left: 17%;
 }
@@ -320,10 +328,14 @@ h2{
 }
 
 #end .text01{
+  margin: 0 auto;
   font-size: 1.5em;
   margin-top: 10px;
-  margin-left: 10%;
   width: 66%;
+}
+
+#end .text01 p{
+  text-align: center;
 }
 
 .topButton{
