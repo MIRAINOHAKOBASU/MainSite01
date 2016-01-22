@@ -22,7 +22,7 @@ $(function(){
 			sFI('#place .img02',400);
 			sFI('#place .hakobus',topView);
 			sFI('#work .img01', 200);
-			sFI('#work .text01', 300);
+			sFI('#work .text01', 250);
 			sFI('#work .hakobus', 200);
 			$.each(groups,function(i, element){
 				sFI(element,topView - 600 + parseInt($(element).css("top")));
