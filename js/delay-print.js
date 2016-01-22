@@ -8,7 +8,7 @@ var groups = ['.group01' , '.group02', '.group03', '.group04', '.group05', '.gro
 $(function(){
 
 
-	var hide = $('#place .img02, #place .img01, #place .hakobus, .group, #work .img01, #work .hakobus, #movie .img01, #movie .hakobus, #end .hakobus');
+	var hide = $('#place .img02, #place .img01, #place .hakobus, .group, #work .img01, #work .text01, #work .hakobus, #movie .img01, #movie .hakobus, #end .hakobus');
 
 	if($(window).width() > 680){
 		hide.css('display','none');
@@ -18,17 +18,18 @@ $(function(){
 	$(window).scroll(function(){
 		$scvalue = $(this).scrollTop();//スクロールの値を取得
 		if($(window).width() > 680){
-			sFI('#place .img01',300);
+			sFI('#place .img01',topView);
 			sFI('#place .img02',400);
-			sFI('#place .hakobus',300);
-			sFI('#work .img01', topView);
-			sFI('#work .hakobus', topView);
+			sFI('#place .hakobus',topView);
+			sFI('#work .img01', 200);
+			sFI('#work .text01', 250);
+			sFI('#work .hakobus', 200);
 			$.each(groups,function(i, element){
-				sFI(element,topView + place - 600 + parseInt($(element).css("top")));
+				sFI(element,topView - 600 + parseInt($(element).css("top")));
 			});
-			sFI('#movie .img01', topView + place + work - 900);
-			sFI('#movie .hakobus', topView + place + work - 900);
-			sFI('#end .hakobus',  topView + place + work - 500);
+			sFI('#movie .img01', topView + work - 900);
+			sFI('#movie .hakobus', topView + work - 900);
+			sFI('#end .hakobus',  topView + work - 500);
 		}
 
 		sFI('.topButton',400);
