@@ -61,8 +61,8 @@ img {
 
 .inner {
   width: 1000px;
-  background-image: url(../img/road_v3.png);
-  background-position: center center; 
+  background-image: url(../img/road_v5.png);
+  background-position: center 5%; 
   margin: 0 auto;
   position: relative;
 
@@ -88,9 +88,6 @@ img {
 .hakobus{
   width: 125px;
 }
-
-
-
 
 h2 img {
   height: 250px;
@@ -140,10 +137,6 @@ top: 30px;
   top: 450px;
 }
 
-
-
-
-
 #place {
   position: relative;
   height: 700px;
@@ -158,43 +151,45 @@ top: 30px;
 }
 
 #place .img01 {
-  top: 64px;
-  left: 465px;
+  top: 235px;
+  left: 290px;
+  height: 200px;
+  z-index: 10;
 }
 
 #place .img02 {
-  width: 400px;
-  left: 40px;
-  top: 20px;
+  width: 290px;
+  left: 0px;
+  top: 260px;
 }
 
 #place .text01 {
   color: #d21577;
-  top: 330px;
-  left: 100px;
+  top: 120px;
+  left: 500px;
 }
 
 #place .img04 {
   height: 100px;
-  top: 450px;
-  left: 160px;
+  top: 440px;
+  left: 75px;
 }
 
 #place .img05 {
-  left: 700px;
-  width: 300px;
-  top: 80px;
+  left: 500px;
+  width: 400px;
+  height: 300px;
+  top: 180px;
 }
 
 #place .text02{
-  top: 390px;
-  left: 100px;
+  top: 150px;
+  left: 500px;
 }
 
 #place .text03{
-  left: 700px;
-  width: 300px;
-  top: 400px;
+  left: 500px;
+  top: 490px;
 }
 
 #place .img07 {
@@ -204,13 +199,13 @@ top: 30px;
 }
 
 #place .img08 {
-  left: 580px;
-  top: 240px;
+  left: 340px;
+  top: 360px;
 }
 
 #work {
   position: relative;
-  height: 1500px;
+  height: 1600px;
 }
 
 #work img {
@@ -222,6 +217,7 @@ top: 30px;
   height: 250px;
   width: 250px;
 }
+
 
 
 #work .group .mouseover{
@@ -280,7 +276,7 @@ top: 30px;
 
 #work .modal-close{
   position: relative;
-  margin: 15px 30px 0px auto; 
+  margin: 15px 30px 0px auto;
   width: 5px;
   height: 5px;
 }
@@ -457,68 +453,69 @@ top: 30px;
 }
 
 #work .img01 {
-  top: 25px;
-  left: 550px;
+  top: 78px;
+  left: 450px;
+  height: 200px;
 }
 
 #work .text01{
   position: absolute;
-  top: 25px;
-  left: 750px;
-  width: 250px;
+  top: 135px;
+  left: 730px;
+  width: 300px;
 }
 
 #work .img03 {
   top: 200px;
-  left: 400px;
+  left: 560px;
 }
 
 #work .group01{
   left: 130px;
-  top: 50px;
+  top: 150px;
 }
 
 #work .group02{
-  top: 320px;
+  top: 420px;
 }
 
 #work .group03{
-  left: 550px;
-  top: 410px;
+  left: 650px;
+  top: 370px;
 }
 
 #work .group04{
-  top: 560px;
-  left: 220px;
+  top: 550px;
+  left: 300px;
 }
 
 #work .group05{
-  left: 700px;
+  left: 600px;
   top: 700px;
 }
 
 #work .group06{
-  top: 780px;
+  top: 730px;
 }
 
 #work .group07{
-  top: 900px;
-  left: 350px;
+  top: 1000px;
+  left: 150px;
 }
 
-#work .group08{ 
-  top: 1010px;
+#work .group08{
+  top: 1000px;
   left: 750px;
 }
 
 #work .group09{
-  top: 1110px;
-  left: 50px;
+  top: 1270px;
+
 }
 
 #work .group10{
-  top: 1210px;
-  left: 420px;
+  top: 1200px;
+  left: 500px;
 }
 
 #movie {
@@ -531,13 +528,14 @@ top: 30px;
 }
 
 #movie .img01{
-  top :0;
-  left: 530px;
+  top : 25px;
+  left: 440px;
+  height: 200px;
 }
 
 #movie .img02{
-  top : 80px;
-  left: 680px;
+  top : 150px;
+  left: 540px;
 }
 
 #movie .movie_contents{
@@ -565,8 +563,8 @@ top: 30px;
 }
 
 #end .img01{
-  top: 100px;
-  left: 450px;
+  top: 160px;
+  left: 430px;
 }
 
 #end .img02{
@@ -575,7 +573,7 @@ top: 30px;
 }
 
 #end .text01{
-  top: 230px;
+  top: 500px;
   font-size: 2em;
   text-align: center;
 }
@@ -587,10 +585,12 @@ top: 30px;
   margin-left: auto;
   width: 100px;
   padding-bottom: 20px;
+  z-index: 50;
 }
 
 .topButton a{
   border-bottom: 0;
+  width: 70%;
 }
 
 .topButton a img{
@@ -621,5 +621,59 @@ h3{
 .icon{
   position: relative !important;
   width: 16px;
+  margin-right: 3px;
+}
+
+.outer *{
+  position: absolute;
+}
+
+.outer .photo01{
+  top:695px;
+  right: 0;
+  width: 150px;
+}
+
+.outer .photo02{
+  top: 920px;
+  left: 0;
+  width: 150px;
+}
+.outer .photo03{
+  top: 3800px;
+  left: 0;
+  width: 150px;
+}
+.outer .photo04{
+  top:1400px;
+  right: 0;
+  width: 200px;
+}
+.outer .photo05{
+  top:2250px;
+  right: 10%;
+  width: 150px;
+}
+.outer .photo06{
+  top:1900px;
+  left: 0;
+  width: 150px;
+}
+.outer .photo07{
+  top:3000px;
+  left: 0;
+  width: 150px;
+}
+.outer .photo08{
+  top:3500px;
+  right: 10%;
+  width: 150px;
 }
 }
+
+#copyright{
+  padding: 30px 0;
+  text-align: center;
+}
+
+
