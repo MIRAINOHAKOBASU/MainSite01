@@ -2,25 +2,56 @@
 @media screen and ( min-width:681px ){
 * {
   font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
   min-width: 1000px;
-  background-image: url(../img/snow_v2.jpg);
+  background-image: url(../img/snow_v3.jpg);
   background-repeat: repeat-y;
 }
 
-a{
-  color: #600;
-  padding: 0 2px;
-  border-bottom: 2px solid #f1b8d6;
+header{
+  position: absolute;
+  right: 0;
+  top: 75px;
+  border-right: 1px solid #888889;/*一部のブラウザで0.5では表示されないため1に変更*/
+}
+
+header:after{/*floatを使うため、clearfixを追記（micro clearfixを採用）*/
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+header a{/*他のaタグに鑑賞する恐れがあったため、header内aタグに書き換え*/
+  display: block;/*aタグは本来インライン要素であるため、ブロック要素に変更*/
+  float: left;/*ブロック要素を横並びにするためfloatを使用*/
+  padding-left: 25px;/*左だけ長かったので変更、意図が会ったらごめんなさい*/
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-left: 1px solid #888889;/*一部のブラウザで0.5では表示されないため1に変更*/
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
 
-a:hover{
-  border-bottom: 2px solid #d21577;
+header a:hover{
+  background-color: rgba(174,190,200,0.3);
+}
+
+header .img06{
+width: 40px;
+}
+
+header .img07{
+width: 40px;
+}
+
+header .img08{
+width: 40px;
 }
 
 
@@ -30,9 +61,11 @@ img {
 
 .inner {
   width: 1000px;
-  background-image: url(../img/road_v2.png);
+  background-image: url(../img/road_v3.png);
+  background-position: center center; 
   margin: 0 auto;
   position: relative;
+
 }
 
 #loading{
@@ -56,13 +89,8 @@ img {
   width: 125px;
 }
 
-header{
-  position: absolute;
-  right: 0;
-  top: 30px;
-  height: 30px;
-  font-size: 1.3em;
-}
+
+
 
 h2 img {
   height: 250px;
@@ -75,42 +103,46 @@ h2 img {
 #topView img {
   position: absolute;
 }
-#topView .img00{
-  width: 280px;
-  left: 20px;
-  top: 180px;
-}
+
 #topView .img01 {
-  width: 280px;
+width: 400px;
   left: 20px;
-  top: 20px;
+  top: 30px;
 }
 #topView .img02 {
-  left: 560px;
-  top: 310px;
+left:-325px;
+top:-155px;
 }
 #topView .img03 {
-  left: 750px;
-  top: 250px;
-  height: 400px;
+ width: 150px;
+left: 850px;
+top: 30px;
 }
 
 #topView .img04{
-  left: 950px;
-  top: 250px;
-  height: 400px;
-}
-
-#topView .img05{
-  width: 280px;
-  left: 25px;
+  width:450px;
+  left: 560px;
   top: 220px;
 }
 
-#topView .img06{
-  left: 430px;
-  top: 490px;
+
+#topView .text01{
+  position: absolute;
+  font-size: 13px;
+  width: 450px;
+  left: 560px;
+  top: 270px;
 }
+
+#topView .img05{
+  width: 480px;
+  left: 560px;
+  top: 450px;
+}
+
+
+
+
 
 #place {
   position: relative;
@@ -131,36 +163,38 @@ h2 img {
 }
 
 #place .img02 {
-  top: 40px;
-  height: 215px;
-  left: 150px;
+  width: 400px;
+  left: 40px;
+  top: 20px;
 }
 
 #place .text01 {
   color: #d21577;
-  top: 265px;
-  left: 150px;
-  width: 313px;
+  top: 330px;
+  left: 100px;
 }
 
 #place .img04 {
   height: 100px;
-  top: 100px;
+  top: 450px;
+  left: 160px;
 }
 
 #place .img05 {
-  height: 150px;
-  top: 450px;
+  left: 700px;
+  width: 300px;
+  top: 80px;
 }
 
-#place .img06 {
-  height: 45px;
-  top: 610px;
+#place .text02{
+  top: 390px;
+  left: 100px;
 }
 
 #place .text03{
-  width: 260px;
-  top: 610px;
+  left: 700px;
+  width: 300px;
+  top: 400px;
 }
 
 #place .img07 {
@@ -170,7 +204,7 @@ h2 img {
 }
 
 #place .img08 {
-  left: 600px;
+  left: 580px;
   top: 240px;
 }
 
@@ -240,13 +274,48 @@ h2 img {
   display: none;
 
   width: 750px;
-  height: 550px;
+  height: 570px;
   background-color: #fff;
+}
+
+#work .modal-close{
+  position: relative;
+  margin: 15px 30px 0px auto; 
+  width: 5px;
+  height: 5px;
+}
+
+#work .modal-close :hover{
+  cursor:pointer;
+}
+
+#work .modal-icon {
+  display: inline-block;
+  position: relative;
+  margin: 0 20px 0 7px;
+  padding: 0;
+  width: 6px;
+  height: 24px;
+  background: #000;
+  transform: rotate(45deg);
+  border-bottom: 0px;
+}
+
+#work .modal-icon:before{
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -8px;
+  width: 24px;
+  height: 6px;
+  margin-top: -3px;
+  background: #000;
 }
 
 #work .modal-contents img{
   position: relative;
-  margin: 30px 25px 10px 25px;
+  margin: 20px 25px 10px 25px;
   width: 250px;
   height: 250px;
   float: left;
@@ -254,7 +323,7 @@ h2 img {
 
 #work .modal-contents h3{
   position: relative;
-  margin: 40px 25px 10px 15px;
+  margin: 30px 25px 10px 15px;
   padding-left: 10px;
   width: 410px;
   height: 50px;
@@ -268,7 +337,7 @@ h2 img {
 
 #work .modal-contents p{
   position: relative;
-  margin: 10px 25px 10px 15px;
+  margin: 0px 25px 10px 15px;
   width: 410px;
   height: 170px;
   float: left;
@@ -276,18 +345,29 @@ h2 img {
 
 #work .modal-contents ul{
   position: relative;
-  margin: 10px 25px 30px 25px;
+  margin: 0px 25px 30px 25px;
   width: 700px;
-  height: 220px;
+  height: 240px;
   float: left;
 
+  list-style: none;
+}
+
+#work .modal-contents ul h4{
+  position: relative;
+  margin: 10px;
+  width: 700px;
+  height: 15px;
+  float: left;
+
+  font-size: 18px;
   list-style: none;
 }
 
 #work .modal-contents .member{
   position: relative;
   margin: 15px 10px;
-  width: 210px;
+  width: 200px;
   height: 80px;
   border-left: solid 5px #d21577;
 
@@ -314,7 +394,7 @@ h2 img {
 #work .modal-contents .member_2{
   position: relative;
   margin: 15px 10px;
-  width: 330px;
+  width: 230px;
   height: 80px;
   border-left: solid 5px #d21577;
 
@@ -331,6 +411,33 @@ h2 img {
 }
 
 #work .modal-contents .member_2 p{
+  margin: 5px 10px;
+  width: 230px;
+  height: 30px;
+
+  line-height: 30px;
+}
+
+#work .modal-contents .member_3{
+  position: relative;
+  margin: 15px 10px;
+  width: 330px;
+  height: 80px;
+  border-left: solid 5px #d21577;
+
+  float: left;
+}
+
+#work .modal-contents .member_3 li{
+  margin: 5px 10px;
+  width: 200px;
+  height: 30px;
+  float: left;
+
+  list-style-type: none;
+}
+
+#work .modal-contents .member_3 p{
   margin: 5px 10px;
   width: 330px;
   height: 30px;
