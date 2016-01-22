@@ -274,13 +274,48 @@ top: 30px;
   display: none;
 
   width: 750px;
-  height: 550px;
+  height: 570px;
   background-color: #fff;
+}
+
+#work .modal-close{
+  position: relative;
+  margin: 15px 30px 0px auto; 
+  width: 5px;
+  height: 5px;
+}
+
+#work .modal-close :hover{
+  cursor:pointer;
+}
+
+#work .modal-icon {
+  display: inline-block;
+  position: relative;
+  margin: 0 20px 0 7px;
+  padding: 0;
+  width: 6px;
+  height: 24px;
+  background: #000;
+  transform: rotate(45deg);
+  border-bottom: 0px;
+}
+
+#work .modal-icon:before{
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -8px;
+  width: 24px;
+  height: 6px;
+  margin-top: -3px;
+  background: #000;
 }
 
 #work .modal-contents img{
   position: relative;
-  margin: 30px 25px 10px 25px;
+  margin: 20px 25px 10px 25px;
   width: 250px;
   height: 250px;
   float: left;
@@ -288,7 +323,7 @@ top: 30px;
 
 #work .modal-contents h3{
   position: relative;
-  margin: 40px 25px 10px 15px;
+  margin: 30px 25px 10px 15px;
   padding-left: 10px;
   width: 410px;
   height: 50px;
@@ -302,7 +337,7 @@ top: 30px;
 
 #work .modal-contents p{
   position: relative;
-  margin: 10px 25px 10px 15px;
+  margin: 0px 25px 10px 15px;
   width: 410px;
   height: 170px;
   float: left;
@@ -310,18 +345,29 @@ top: 30px;
 
 #work .modal-contents ul{
   position: relative;
-  margin: 10px 25px 30px 25px;
+  margin: 0px 25px 30px 25px;
   width: 700px;
-  height: 220px;
+  height: 240px;
   float: left;
 
+  list-style: none;
+}
+
+#work .modal-contents ul h4{
+  position: relative;
+  margin: 10px;
+  width: 700px;
+  height: 15px;
+  float: left;
+
+  font-size: 18px;
   list-style: none;
 }
 
 #work .modal-contents .member{
   position: relative;
   margin: 15px 10px;
-  width: 210px;
+  width: 200px;
   height: 80px;
   border-left: solid 5px #d21577;
 
@@ -348,7 +394,7 @@ top: 30px;
 #work .modal-contents .member_2{
   position: relative;
   margin: 15px 10px;
-  width: 330px;
+  width: 230px;
   height: 80px;
   border-left: solid 5px #d21577;
 
@@ -365,6 +411,33 @@ top: 30px;
 }
 
 #work .modal-contents .member_2 p{
+  margin: 5px 10px;
+  width: 230px;
+  height: 30px;
+
+  line-height: 30px;
+}
+
+#work .modal-contents .member_3{
+  position: relative;
+  margin: 15px 10px;
+  width: 330px;
+  height: 80px;
+  border-left: solid 5px #d21577;
+
+  float: left;
+}
+
+#work .modal-contents .member_3 li{
+  margin: 5px 10px;
+  width: 200px;
+  height: 30px;
+  float: left;
+
+  list-style-type: none;
+}
+
+#work .modal-contents .member_3 p{
   margin: 5px 10px;
   width: 330px;
   height: 30px;
