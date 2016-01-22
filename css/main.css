@@ -2,25 +2,56 @@
 @media screen and ( min-width:681px ){
 * {
   font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
   min-width: 1000px;
-  background-image: url(../img/snow_v2.jpg);
+  background-image: url(../img/snow_v3.jpg);
   background-repeat: repeat-y;
 }
 
-a{
-  color: #600;
-  padding: 0 2px;
-  border-bottom: 2px solid #f1b8d6;
+header{
+  position: absolute;
+  right: 0;
+  top: 75px;
+  border-right: 1px solid #888889;/*一部のブラウザで0.5では表示されないため1に変更*/
+}
+
+header:after{/*floatを使うため、clearfixを追記（micro clearfixを採用）*/
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+header a{/*他のaタグに鑑賞する恐れがあったため、header内aタグに書き換え*/
+  display: block;/*aタグは本来インライン要素であるため、ブロック要素に変更*/
+  float: left;/*ブロック要素を横並びにするためfloatを使用*/
+  padding-left: 25px;/*左だけ長かったので変更、意図が会ったらごめんなさい*/
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-left: 1px solid #888889;/*一部のブラウザで0.5では表示されないため1に変更*/
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
 
-a:hover{
-  border-bottom: 2px solid #d21577;
+header a:hover{
+  background-color: rgba(174,190,200,0.3);
+}
+
+header .img06{
+width: 40px;
+}
+
+header .img07{
+width: 40px;
+}
+
+header .img08{
+width: 40px;
 }
 
 
@@ -30,9 +61,11 @@ img {
 
 .inner {
   width: 1000px;
-  background-image: url(../img/road_v2.png);
+  background-image: url(../img/road_v3.png);
+  background-position: center center; 
   margin: 0 auto;
   position: relative;
+
 }
 
 #loading{
@@ -56,13 +89,8 @@ img {
   width: 125px;
 }
 
-header{
-  position: absolute;
-  right: 0;
-  top: 30px;
-  height: 30px;
-  font-size: 1.3em;
-}
+
+
 
 h2 img {
   height: 250px;
@@ -75,42 +103,46 @@ h2 img {
 #topView img {
   position: absolute;
 }
-#topView .img00{
-  width: 280px;
-  left: 20px;
-  top: 180px;
-}
+
 #topView .img01 {
-  width: 280px;
+width: 400px;
   left: 20px;
-  top: 20px;
+  top: 30px;
 }
 #topView .img02 {
-  left: 560px;
-  top: 310px;
+left:-325px;
+top:-155px;
 }
 #topView .img03 {
-  left: 750px;
-  top: 250px;
-  height: 400px;
+ width: 150px;
+left: 850px;
+top: 30px;
 }
 
 #topView .img04{
-  left: 950px;
-  top: 250px;
-  height: 400px;
-}
-
-#topView .img05{
-  width: 280px;
-  left: 25px;
+  width:450px;
+  left: 560px;
   top: 220px;
 }
 
-#topView .img06{
-  left: 430px;
-  top: 490px;
+
+#topView .text01{
+  position: absolute;
+  font-size: 13px;
+  width: 450px;
+  left: 560px;
+  top: 270px;
 }
+
+#topView .img05{
+  width: 480px;
+  left: 560px;
+  top: 450px;
+}
+
+
+
+
 
 #place {
   position: relative;
