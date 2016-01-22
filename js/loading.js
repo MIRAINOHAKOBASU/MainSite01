@@ -1,5 +1,5 @@
 $(function() {
-  var hide = $('.inner,.topButton,#topView>.img04,#topView>.img03');
+  var hide = $('.inner,.topButton,#topView>.img04,#topView>.img03, .outer');
 
   hide.css('display','none');
   $('#loading ,.loadingImg').css('display','block');
@@ -25,7 +25,7 @@ $(function(){
 function stopload(){
   $('.loadingImg').delay(900).fadeOut(800);
   $('#loading').delay(600).fadeOut(300);
-  delayFadeIn('.inner',1000,600);
+  delayFadeIn('.inner, .outer',1000,600);
   if($(window).width() > 680){
     delayFadeIn('#topView>.img04',1700,600);
     delayFadeIn('#topView>.img03',2000,600);
