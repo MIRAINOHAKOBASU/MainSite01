@@ -132,7 +132,7 @@ top: 30px;
 }
 
 #topView .img05{
-  width: 480px;
+  width: 440px;
   left: 560px;
   top: 450px;
 }
@@ -462,7 +462,8 @@ top: 30px;
   position: absolute;
   top: 165px;
   left: 730px;
-  width: 300px;
+  max-width: 300px;
+  margin-left: 5px;
 }
 
 #work .img03 {
@@ -666,6 +667,16 @@ h3{
   top:3500px;
   right: 10%;
   width: 150px;
+}
+}
+@media screen and ( max-width:880px ){
+.outer .photo04{
+  display: none;
+}
+}
+@media screen and ( max-width:1080px ){
+.outer .photo02{
+  display: none;
 }
 }
 
