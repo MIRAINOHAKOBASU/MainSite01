@@ -137,13 +137,6 @@ top: 30px;
   top: 450px;
 }
 
-a .top{
-  width: 70%;
-  
-}
-
-
-
 #place {
   position: relative;
   height: 700px;
@@ -597,6 +590,7 @@ a .top{
 
 .topButton a{
   border-bottom: 0;
+  width: 70%;
 }
 
 .topButton a img{
