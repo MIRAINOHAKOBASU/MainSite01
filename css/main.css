@@ -158,44 +158,45 @@ a .top{
 }
 
 #place .img01 {
-  top: 145px;
-  left: 490px;
+  top: 235px;
+  left: 290px;
   height: 200px;
+  z-index: 10;
 }
 
 #place .img02 {
-  width: 300px;
+  width: 290px;
   left: 0px;
-  top: 180px;
+  top: 260px;
 }
 
 #place .text01 {
   color: #d21577;
-  top: 370px;
-  left: 0px;
+  top: 120px;
+  left: 500px;
 }
 
 #place .img04 {
   height: 100px;
-  top: 500px;
-  left: 0px;
+  top: 440px;
+  left: 75px;
 }
 
 #place .img05 {
-  left: 700px;
-  width: 300px;
-  top: 80px;
+  left: 500px;
+  width: 400px;
+  height: 300px;
+  top: 180px;
 }
 
 #place .text02{
-  top: 430px;
-  left: 0px;
+  top: 150px;
+  left: 500px;
 }
 
 #place .text03{
-  left: 700px;
-  width: 300px;
-  top: 400px;
+  left: 500px;
+  top: 490px;
 }
 
 #place .img07 {
@@ -205,8 +206,8 @@ a .top{
 }
 
 #place .img08 {
-  left: 360px;
-  top: 270px;
+  left: 340px;
+  top: 360px;
 }
 
 #work {
@@ -509,7 +510,7 @@ a .top{
   left: 150px;
 }
 
-#work .group08{ 
+#work .group08{
   top: 1000px;
   left: 750px;
 }
@@ -626,6 +627,7 @@ h3{
 .icon{
   position: relative !important;
   width: 16px;
+  margin-right: 3px;
 }
 
 .outer *{
