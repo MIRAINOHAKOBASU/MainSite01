@@ -2,7 +2,7 @@
 
 @media screen and ( max-width:680px ){
 body{
-  background-image: url(../img/snow_v2.jpg);
+  background-image: url(../img/snow_v3.jpg);
   background-repeat: repeat-y;
   min-width: 0;
   height: auto !important;
@@ -64,7 +64,12 @@ h2{
 
 #topView .img01{
   width: 70%;
-  margin-top: 15px;
+  margin-top: -350px;
+}
+
+#topView .img02{
+margin: -120px 0 -100px -70%;
+  width: 70%;
 }
 
 #topView .img05{

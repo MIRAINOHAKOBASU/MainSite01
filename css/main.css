@@ -62,7 +62,7 @@ img {
 .inner {
   width: 1000px;
   background-image: url(../img/road_v5.png);
-  background-position: center center; 
+  background-position: center 5%; 
   margin: 0 auto;
   position: relative;
 
@@ -137,7 +137,10 @@ top: 30px;
   top: 450px;
 }
 
-
+a .top{
+  width: 70%;
+  
+}
 
 
 
@@ -665,9 +668,16 @@ h3{
   left: 0;
   width: 150px;
 }
+.outer .photo08{
+  top:3500px;
+  right: 10%;
+  width: 150px;
+}
 }
 
 #copyright{
   padding: 30px 0;
   text-align: center;
 }
+
+
