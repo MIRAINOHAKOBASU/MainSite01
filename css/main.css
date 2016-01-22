@@ -30,8 +30,8 @@ header a{/*他のaタグに鑑賞する恐れがあったため、header内aタ�
   float: left;/*ブロック要素を横並びにするためfloatを使用*/
   padding-left: 25px;/*左だけ長かったので変更、意図が会ったらごめんなさい*/
   padding-right: 25px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border-left: 1px solid #888889;/*一部のブラウザで0.5では表示されないため1に変更*/
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -107,15 +107,16 @@ h2 img {
 #topView .img01 {
 width: 400px;
   left: 20px;
-  top: 20px;
+  top: 30px;
 }
 #topView .img02 {
 left:-325px;
 top:-155px;
 }
 #topView .img03 {
- width: 200px;
-left: 800px;
+ width: 150px;
+left: 850px;
+top: 30px;
 }
 
 #topView .img04{
