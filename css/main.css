@@ -137,16 +137,6 @@ top: 30px;
   top: 450px;
 }
 
-<<<<<<< HEAD
-=======
-a .top{
-  width: 70%;
-  
-}
-
-
-
->>>>>>> master
 #place {
   position: relative;
   height: 700px;
@@ -600,6 +590,7 @@ a .top{
 
 .topButton a{
   border-bottom: 0;
+  width: 70%;
 }
 
 .topButton a img{
