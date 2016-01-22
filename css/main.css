@@ -89,59 +89,6 @@ img {
   width: 125px;
 }
 
-
-.inner .photo01{
-  position: absolute;
-  top:695px;
-  left:988px;
-  width: 150px;
-  text-align: right;
-}
-
-.inner .photo02{
-  position: absolute;
-  top: 920px;
-  left: -161px;
-  width: 150px;
-  text-align: left;
-}
-.inner .photo03{
-  position: absolute;
-  top: 3750px;
-  left: -161px;
-  width: 150px;
-  text-align: left;
-}
-.inner .photo04{
-  position: absolute;
-  top:1400px;
-  left:938px;
-  width: 200px;
-  text-align: right;
-}
-.inner .photo05{
-  position: absolute;
-  top:2250px;
-  left:850px;
-  text-align: right;
-  width: 150px;
-}
-.inner .photo06{
-  position: absolute;
-  top:1900px;
-  left: -180px;
-  width: 150px;
-  text-align: left;
-}
-.inner .photo07{
-  position: absolute;
-  top:3000px;
-  left: -150px;
-  width: 150px;
-  text-align: left;
-}
-
-
 h2 img {
   height: 250px;
 }
@@ -641,6 +588,7 @@ top: 30px;
   margin-left: auto;
   width: 100px;
   padding-bottom: 20px;
+  z-index: 50;
 }
 
 .topButton a{
@@ -675,6 +623,47 @@ h3{
 .icon{
   position: relative !important;
   width: 16px;
+}
+
+.outer *{
+  position: absolute;
+}
+
+.outer .photo01{
+  top:695px;
+  right: 0;
+  width: 150px;
+}
+
+.outer .photo02{
+  top: 920px;
+  left: 0;
+  width: 150px;
+}
+.outer .photo03{
+  top: 3800px;
+  left: 0;
+  width: 150px;
+}
+.outer .photo04{
+  top:1400px;
+  right: 0;
+  width: 200px;
+}
+.outer .photo05{
+  top:2250px;
+  right: 10%;
+  width: 150px;
+}
+.outer .photo06{
+  top:1900px;
+  left: 0;
+  width: 150px;
+}
+.outer .photo07{
+  top:3000px;
+  left: 0;
+  width: 150px;
 }
 }
 
