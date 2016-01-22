@@ -61,7 +61,7 @@ img {
 
 .inner {
   width: 1000px;
-  background-image: url(../img/road_v3.png);
+  background-image: url(../img/road_v5.png);
   background-position: center center; 
   margin: 0 auto;
   position: relative;
@@ -90,7 +90,43 @@ img {
 }
 
 
+.inner .photo01{
+  position: absolute;
+  top:695px;
+  left:988px;
+  width: 150px;
+  text-align: right;
+}
 
+.inner .photo02{
+  position: absolute;
+  top: 920px;
+  left: -161px;
+  width: 150px;
+  text-align: left;
+}
+.inner .photo03{
+  position: absolute;
+  top: 3750px;
+  left: -161px;
+  width: 150px;
+  text-align: left;
+}
+.inner .photo04{
+  position: absolute;
+  top:1400px;
+  left:938px;
+  width: 200px;
+  text-align: right;
+}
+.inner .photo05{
+  position: absolute;
+  width: 100px;
+}
+.inner .photo06{
+  position: absolute;
+  width: 100px;
+}
 
 h2 img {
   height: 250px;
@@ -158,12 +194,13 @@ top: 30px;
 }
 
 #place .img01 {
-  top: 64px;
-  left: 465px;
+  top: 145px;
+  left: 445px;
+  height: 200px;
 }
 
 #place .img02 {
-  width: 400px;
+  width: 300px;
   left: 40px;
   top: 20px;
 }
@@ -204,13 +241,13 @@ top: 30px;
 }
 
 #place .img08 {
-  left: 580px;
-  top: 240px;
+  left: 330px;
+  top: 270px;
 }
 
 #work {
   position: relative;
-  height: 1500px;
+  height: 1600px;
 }
 
 #work img {
@@ -222,6 +259,7 @@ top: 30px;
   height: 250px;
   width: 250px;
 }
+
 
 
 #work .group .mouseover{
@@ -457,68 +495,69 @@ top: 30px;
 }
 
 #work .img01 {
-  top: 25px;
-  left: 550px;
+  top: 78px;
+  left: 480px;
+  height: 200px;
 }
 
 #work .text01{
   position: absolute;
-  top: 25px;
-  left: 750px;
-  width: 250px;
+  top: 135px;
+  left: 730px;
+  width: 300px;
 }
 
 #work .img03 {
   top: 200px;
-  left: 400px;
+  left: 560px;
 }
 
 #work .group01{
   left: 130px;
-  top: 50px;
+  top: 150px;
 }
 
 #work .group02{
-  top: 320px;
+  top: 420px;
 }
 
 #work .group03{
-  left: 550px;
-  top: 410px;
+  left: 650px;
+  top: 370px;
 }
 
 #work .group04{
-  top: 560px;
-  left: 220px;
+  top: 550px;
+  left: 300px;
 }
 
 #work .group05{
-  left: 700px;
+  left: 600px;
   top: 700px;
 }
 
 #work .group06{
-  top: 780px;
+  top: 730px;
 }
 
 #work .group07{
-  top: 900px;
-  left: 350px;
+  top: 1000px;
+  left: 150px;
 }
 
 #work .group08{ 
-  top: 1010px;
+  top: 1000px;
   left: 750px;
 }
 
 #work .group09{
-  top: 1110px;
-  left: 50px;
+  top: 1270px;
+
 }
 
 #work .group10{
-  top: 1210px;
-  left: 420px;
+  top: 1200px;
+  left: 500px;
 }
 
 #movie {
