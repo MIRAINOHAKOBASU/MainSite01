@@ -225,7 +225,7 @@ h2{
 
 .work-contents .work-icons{
   margin:2%;
-  width: 32%;
+  width: 22%;
   height:auto;
 
   float: left;
@@ -261,7 +261,7 @@ h2{
   position: relative;
   margin: 2%;
   padding-left: 2%;
-  width: 60%;
+  width: 70%;
   height: 30px;
   float: right;
 
@@ -272,14 +272,14 @@ h2{
 .work-contents p{
   position: relative;
   margin: 2%;
-  width: 60%;
+  width: 70%;
   float: right;
 }
 
 .work-contents ul{
   position: relative;
   margin: 2%;
-  width: 60%;
+  width: 70%;
   float: right;
 
   list-style: none;
