@@ -5,6 +5,9 @@
  *
  * Free to use under terms of MIT license
  */
+
+if($(window).width() > 680){//追記
+
 (function(window, document, undefined) {
 	'use strict';
 
@@ -1778,3 +1781,4 @@
 	}
 
 }(window, document));
+}
