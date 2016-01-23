@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and ( max-width:680px ){
+@media screen and ( max-width:768px ){
 body{
   background-image: url(../img/snow_v3.jpg);
   background-repeat: repeat-y;
@@ -15,6 +15,23 @@ a:visited{color:#00008B;}
   width: 94%;
   margin: 0 3%;
   /*background-image: url(../img/road_phone.png);*/
+}
+
+#loading{
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+.loadingImg{
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -40px;
 }
 
 img{
