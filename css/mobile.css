@@ -42,6 +42,10 @@ img{
   display: none !important;
 }
 
+.grouptheme{
+  margin-left: 10px;
+}
+
 .hakobus{
   display: none !important;
 }
