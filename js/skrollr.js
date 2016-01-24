@@ -6,7 +6,7 @@
  * Free to use under terms of MIT license
  */
 
-if($(window).width() > 680){//追記
+if($(window).width() > 768){//追記
 
 (function(window, document, undefined) {
 	'use strict';
